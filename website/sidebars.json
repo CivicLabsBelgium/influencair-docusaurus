@@ -1,0 +1,11 @@
+{
+  "docs": {
+    "Influencair": ["doc1"],
+    "Luftdaten": ["doc2"],
+    "Badges": ["doc3"]
+  },
+  "docs-other": {
+    "History": ["doc4", "doc5"],
+    "Data": ["doc5"],
+  }
+}
