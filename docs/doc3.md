@@ -11,7 +11,7 @@ The only thing the user needs to do is to add an image to his html code.
 
 The shown number is always the amount of sensors seen for that area during the last 24 hours.
 
-### City badges
+### City badge
 
 ```
 <img src="https://data.influencair.be/badge/amount/city/brussels.png" />
@@ -66,5 +66,9 @@ Change font type and size
 ```
 *Creates:* ![alt text](https://data.influencair.be/badge/amount/city/Brussels.png?post=sensors&color=red&font=Courier&fontSize=30 "Amount of sensors in Brussels")
 
+### Country badge
 
-
+```
+<img src="https://data.influencair.be/badge/amount/country/belgium.png" />
+```
+*Creates:* ![alt text](https://data.influencair.be/badge/amount/country/belgium.png "Amount of sensors in Belgium")
