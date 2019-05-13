@@ -37,30 +37,30 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}>
+            <a href={`${this.props.config.baseUrl}/docs/doc1`}>
               Getting Started (or other categories)
             </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides (or other categories)
-            </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
+            <a href={`${this.props.config.baseUrl}/docs/doc_api_data`}>
               API Reference (or other categories)
             </a>
           </div>
           <div>
             <h5>Community</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
+            {/* <a href={this.pageUrl('users.html', this.props.language)}>
               User Showcase
-            </a>
+            </a> */}
             <a
-              href="http://stackoverflow.com/questions/tagged/"
+              href="https://forum.influencair.be"
               target="_blank"
               rel="noreferrer noopener">
-              Stack Overflow
+              Forum
             </a>
-            <a href="https://discordapp.com/">Project Chat</a>
+            <a 
+              href="https://join.slack.com/t/civiclabsbelgium/shared_invite/enQtNjI3OTgzMjI2OTc3LTNmNGYyMTQyOTM1MmQwYzIyOGQ1ZTcyNjQxMjljOTUyMjMwYzI1OWZhNDczZDY4MjBiNjM3MTBkNjA3YmQ5YTU">
+              Join our Slack channel
+            </a>
             <a
-              href="https://twitter.com/"
+              href="https://twitter.com/Influencair"
               target="_blank"
               rel="noreferrer noopener">
               Twitter
@@ -68,13 +68,13 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>More</h5>
-            <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
-            <a href="https://github.com/">GitHub</a>
+            {/* <a href={`${this.props.config.baseUrl}blog`}>Blog</a> */}
+            <a href="https://github.com/CivicLabsBelgium/influencair-docusaurus">GitHub</a>
             <a
               className="github-button"
               href={this.props.config.repoUrl}
               data-icon="octicon-star"
-              data-count-href="/facebook/docusaurus/stargazers"
+              data-count-href="/CivicLabsBelgium/influencair-docusaurus/stargazers"
               data-show-count="true"
               data-count-aria-label="# stargazers on GitHub"
               aria-label="Star this project on GitHub">
@@ -84,15 +84,15 @@ class Footer extends React.Component {
         </section>
 
         <a
-          href="https://opensource.facebook.com/"
+          href="https://civiclabs.be/"
           target="_blank"
           rel="noreferrer noopener"
           className="fbOpenSource">
           <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="Facebook Open Source"
-            width="170"
-            height="45"
+            src={`https://avatars2.githubusercontent.com/u/28625216?s=200&v=4`}
+            alt="Civic Labs"
+            width="120"
+            height="120"
           />
         </a>
         <section className="copyright">{this.props.config.copyright}</section>

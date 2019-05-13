@@ -150,13 +150,13 @@ class Index extends React.Component {
             content: 'By joining the luftdaten project and deploying sensors',
             image: `${baseUrl}img/undraw_business_analytics_l92d.svg`,
             imageAlign: 'top',
-            title: 'Gather Air-Q data',
+            title: 'Gather air-quality data',
           },
           {
             content: 'Creating easy to use maps and visualisations',
             image: `${baseUrl}img/undraw_all_the_data_h4ki.svg`,
             imageAlign: 'top',
-            title: 'Create insight in Air-Q data',
+            title: 'Create insight in air-quality data',
           },
         ]}
       </Block>
@@ -196,11 +196,10 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
-          <LearnHow />
-          <TryOut />
+          {/* <LearnHow /> */}
+          {/* <TryOut />
           <Description />
-          <Showcase />
+          <Showcase /> */}
         </div>
       </div>
     );

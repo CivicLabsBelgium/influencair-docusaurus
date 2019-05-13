@@ -1,8 +1,7 @@
 {
   "docs": {
-    "Influencair": ["doc1"],
-    "Luftdaten": ["doc2"],
-    "Badges": ["doc_badges"]
+    "Influencair": ["doc1", "doc_map", "doc_badges","doc_history_map"],
+    "Luftdaten": ["doc2"]
   },
   "docs-other": {
     "History": ["doc_api_history"],

@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'Influencair', // Title for your website.
-  tagline: 'A civic labs Belgium community that focusses on creating insights in air quality',
+  tagline: 'A civic labs Belgium community that focusses on creating insights in air-quality',
   url: 'https://documentation.influencair.be', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:

@@ -13,6 +13,9 @@ The shown number is always the amount of sensors seen for that area during the l
 
 The data is available at our [data api](https://docs.influencair.be/docs/doc_api_data)
 
+This feature is sponsored and build in request of  
+[<img src="https://www.transportenvironment.org/sites/te/themes/te/img/logo.svg" alt="logo transportenvironment" width="250"/>](https://www.transportenvironment.org)
+
 ### City badge
 
 ```
