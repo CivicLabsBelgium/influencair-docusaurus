@@ -1,9 +1,13 @@
 ---
-id: doc4
+id: doc_api_history
 title: History API
 ---
 
-## History api https://history.influencair.be/
+## History api 
+
+```
+https://history.influencair.be/
+```
 
 Data origin: http://archive.luftdaten.info/
 
@@ -35,19 +39,25 @@ Day needs to formated in the `YYYY-MM-DD` format
 
 ## History API helper endpoints
 
-### /availableDays
+### AvailableDays
 
-https://history.influencair.be/availableDays <br />
+```
+https://history.influencair.be/availableDays
+```
 *returns* a JSON Array of all available days that are already generated on the platform
 
-### /availableLocations/{YYYY-MM-DD}
+### AvailableLocations/{YYYY-MM-DD}
 
-https://history.influencair.be/availableLocations/{YYYY-MM-DD} <br/>
+```
+https://history.influencair.be/availableLocations/{YYYY-MM-DD}
+```
 *returns* a JSON Array of all available lat-lng tiles for this day
 
-### /generateHistory/{YYYY-MM-DD}
+### GenerateHistory/{YYYY-MM-DD}
 
-https://history.influencair.be//generateHistory/{YYYY-MM-DD} <br/>
+```
+https://history.influencair.be//generateHistory/{YYYY-MM-DD}
+```
 This call will start generating the history files for this day (YYYY-MM-DD). It will check the availability in the luftdaten archive, and download all the csv files for every SDS011 sensor.
 
 This call will also put the request in a queu if more requests for a certain date are made. 

@@ -1,5 +1,5 @@
 ---
-id: doc3
+id: doc_badges
 title: Luftdaten ranking badges
 ---
 
@@ -10,6 +10,8 @@ We opted for an image based counter so it could be implemented on every possible
 The only thing the user needs to do is to add an image to his html code.
 
 The shown number is always the amount of sensors seen for that area during the last 24 hours.
+
+The data is available at our [data api](https://docs.influencair.be/docs/doc_api_data)
 
 ### City badge
 
@@ -72,3 +74,19 @@ Change font type and size
 <img src="https://data.influencair.be/badge/amount/country/belgium.png" />
 ```
 *Creates:* ![alt text](https://data.influencair.be/badge/amount/country/belgium.png "Amount of sensors in Belgium")
+
+## Add your badge to Wordpress
+
+In wordpress you can add these images to a post or a page
+
+1. To add an image from a URL to a post or page in WordPress, click into the post or page where you would like the image to appear.
+2. Click the “Add Media” button to open the “Insert Media” dialog box.
+3. Click the “Insert from URL” link at the left side of the dialog box.
+4. Input the URL address for the image into the top text box where the “http:” text is shown.
+5. Use the text boxes that then appear below the image to add a caption and alt text.
+6. Choose how to align the image, and to where the image links, by clicking the desired button choices.
+7. Click the “Insert into post” button in the lower-right corner of the “Insert from URL” dialog box.
+
+Here you can find a [video tutorial](https://www.youtube.com/watch?v=5o6-DKQuQ_4) on how to add an image via URL
+
+> This image cannot be set as a featured image.

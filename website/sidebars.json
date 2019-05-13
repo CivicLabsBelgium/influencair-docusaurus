@@ -2,10 +2,10 @@
   "docs": {
     "Influencair": ["doc1"],
     "Luftdaten": ["doc2"],
-    "Badges": ["doc3"]
+    "Badges": ["doc_badges"]
   },
   "docs-other": {
-    "History": ["doc4", "doc5"],
-    "Data": ["doc5"]
+    "History": ["doc_api_history"],
+    "Data": ["doc_api_data"]
   }
 }
