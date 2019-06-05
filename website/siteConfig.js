@@ -18,7 +18,18 @@ const users = [
     infoLink: 'https://github.com/Cinezaster',
     pinned: true,
   },
-];
+]
+
+const partners = [
+  {
+    caption: 'Open knowledge belgium',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/image.jpg'.
+    image: 'https://avatars3.githubusercontent.com/u/188269?s=460&v=4',
+    infoLink: 'https://github.com/Cinezaster',
+    pinned: true,
+  },
+]
 
 const siteConfig = {
   title: 'Influencair', // Title for your website.
@@ -46,6 +57,7 @@ const siteConfig = {
 
   // If you have users set above, you add it here:
   users,
+  partners,
 
   /* path to images for header/footer */
   headerIcon: 'img/logo.png',

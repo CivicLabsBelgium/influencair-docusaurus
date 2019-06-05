@@ -15,10 +15,10 @@ This service is made to make the data more consumable by a web viewers.
 Data is parsed from the csv files into json files per phenomenom, location per lat/lng, day
 
 ```
-http://archive.luftdaten.info/{phenomenom}/{lat-lng}/{day}/data.json
+https://history.influencair.be/{phenomenom}/{lat-lng}/{day}/data.json
 ```
 
-*Example:* http://archive.luftdaten.info/PM10/51-3/2019-05-04/data.json
+*Example:* https://history.influencair.be/PM10/51-3/2019-05-04/data.json
 
 ### {phenomenom}
 
@@ -56,7 +56,7 @@ https://history.influencair.be/availableLocations/{YYYY-MM-DD}
 ### GenerateHistory/{YYYY-MM-DD}
 
 ```
-https://history.influencair.be//generateHistory/{YYYY-MM-DD}
+https://history.influencair.be/generateHistory/{YYYY-MM-DD}
 ```
 This call will start generating the history files for this day (YYYY-MM-DD). It will check the availability in the luftdaten archive, and download all the csv files for every SDS011 sensor.
 
