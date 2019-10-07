@@ -3,11 +3,11 @@ id: doc_api_data
 title: Data Api
 ---
 
-## Data api 
+## Data api
 
-````
+``` url
 https://data.influencair.be/
-````
+```
 
 - This service consumes the the current luftdaten api.
 - It keeps track of all sensor locations
@@ -19,20 +19,23 @@ https://data.influencair.be/
 #### /ranking/cityRanking
 
 A sorted list of all the sensors seen for the last 24 hours grouped by city
-```
+
+``` url
 https://data.influencair.be/ranking/cityRanking.json
 ```
 
 #### /ranking/countryRanking
 
 A sorted list of all the sensors seen for the last 24 hours grouped by country
-```
+
+``` url
 https://data.influencair.be/ranking/countryRanking.json
 ```
 
 ### /now
 
 Same data as `http://api.luftdaten.info/static/v2/data.json` but ordered by sensorlocation
+
 ```
 https://data.influencair.be/now/data.json
 ```
